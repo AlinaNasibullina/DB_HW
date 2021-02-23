@@ -1,0 +1,1 @@
+mysqldump -u root -p mysql help_keyword -w"help_keyword_id<101" > c:\users\Alina\dumps\help_keyword.sql
