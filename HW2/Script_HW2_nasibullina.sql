@@ -1,7 +1,7 @@
 -- Задание 2
 drop database if exists example;
 drop database if exists sample;
-create database example;
+create database if not exists example;
 
 use example;
 
@@ -13,7 +13,7 @@ create table users (
 -- Задание 3
 mysqldump example > c:\users\Алина\dumps\example1.sql;
 
-create database sample;
+create database if not exists sample;
 
 mysql sample < c:\Users\Алина\example1.sql;
 
